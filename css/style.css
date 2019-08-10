@@ -1,0 +1,139 @@
+:root {
+    --main-bg-color: brown;
+    --about-color:#0bb634;
+  }
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* -------------Order Page---------- */
+.survey {
+    /* height: 800px; */
+
+    width: 100%;
+    /* min-height: 70vh; */
+    max-width: 500px;
+
+    background-color:#0bb634;;
+  
+    border-radius: 5px;
+    margin: 50px auto;
+    padding: 40px;
+    color: white;
+    /* text-align: center; */
+}
+.form-wrap {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.form-order{
+    margin: 0 auto;
+    list-style: none;
+
+}
+.form-order li select {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+}
+.survey legend{
+    text-align: center;
+    font-size: 1.1rem;
+    
+}
+.survey >p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-wrap li,
+.flex-inner{
+    list-style: none;
+    padding: 0;
+}
+.form-wrap li{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.form-wrap li label,
+.form-wrap li p {
+    padding: 8px 20px 8px 0px;
+
+    flex: 2 1 120px;
+    max-width: 300px;
+    align-self: flex-start;
+}
+/* .form-wrap p {
+    margin: 20px 0px 15px 0px;
+} */
+
+/* label + * =  select all * elements that are placed immediately after label element */
+.form-wrap > li > label + *,
+.form-wrap > li > p + *{
+    flex: 1 0 180px;
+}
+.form-wrap li input,
+.form-wrap li textarea,
+.form-wrap li select {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+}
+.flex-radio li input,
+.flex-inner li input{
+    margin-right: 20px;
+}
+.form-wrap li button {
+    margin: 25px auto 0px;
+    padding: 8px 16px;
+    border: none;
+    background: #333;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    border-radius: 2px;
+}
+
+/* --------------------- About Page------------- */
+
+.flexContainer{
+    display: flex;
+    border: #333 solid 1px;
+    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+/* @media(min-width:40rem){
+    .flexContainer{
+        flex-direction: row;
+    }
+} */
+.col{
+    margin: 1rem;
+    padding: 1rem;
+    /* flex-grow: 1; */
+    /* margin: auto; */
+    /* width: 50%; */
+}
+.col50{
+    width: 50%
+}
+.col30{
+    width: 30%;
+}
+.col70{
+    width: 50%;
+}
+.col:nth-child(1) {
+    background-color: lightblue;
+  }
+.col:nth-child(2) {
+    background-color: lightgreen;
+  }
+.imgProject {
+    /* width: 100%; */
+	height: auto;
+	max-width: 300px;
+}

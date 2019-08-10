@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.topNav {
+    padding: 0 10%;
+    /* background:black; */
+    display: flex;
+    list-style: none;
+    font-size: 1.1rem;
+}
+.topNav a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #f2f2f2;
+}
+.topNav a:hover {
+    /* background-color: #ddd; */
+    color: black; 
+}
+.topNav a.active {
+    background-color: rgba(82, 85, 85, 0.2);
+    color: white;
+}
+.topNav .icon {
+    display: none;
+}
+/* Media query to hide links in small devices and show icon to the right */
+@media screen and (max-width: 600px) {
+    .topNav li:not(:first-child):not(:last-child){
+        display: none;
+    }
+    .topNav {
+        display: flex;
+        justify-content: space-between;
+        padding: 0%;
+        
+    }
+    .topNav .icon {
+        display: inline-block;
+    }
+}
+/* responsive class to show list of links as column */
+@media screen and (max-width: 600px) {
+    .responsive {
+        display: flex;
+        flex-direction: column;
+        background: rgba(82, 85, 85, 0.2);
+    }
+    /* fix icon to the rigth when nav is open */
+    .responsive .icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    /* needed to use !Important here otherwise liks stack under Home */
+    .responsive li {
+        display: block!important;
+    }
+}
+
+/* General CSS */
+
+main{
+    padding: 2rem;
+}
+.header {
+    height: 60vh;
+    text-align: center;
+    
+}
+.header h1{
+    margin-top: 5rem;
+    
+}
+.headerAbout{
+    background: #0bb634;
+}
+.headerOrder{
+    background: #49a4d5
+}
+.headerHome{
+    background: #9cbcb9;
+}
+.headerContact{
+    background: #5174d1;
+}
+.mainFooter{
+    padding: 3rem;
+    color: antiquewhite;
+    
+    text-align: center;
+    background: #1b2126;
+}
+.button{
+    display: inline-block;
+    padding: .5rem 2rem;
+    /* border: 1px solid black; */
+    margin-top: 2rem;
+    border-radius: 4px;
+    background:#5174d1;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.button:hover {
+    background:#3554aa;
+}
+
+
+
+.mainFooter a {
+    color: #49a4d5;
+    /* font-size: 1.2rem; */
+    text-emphasis: none;
+    text-decoration: none;
+}
