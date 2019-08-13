@@ -23,7 +23,6 @@ main{
 .showItem{
     padding: 2rem 0;
 }
-/* .showItem  */
 .green{
     color: #0bb634;
 }
@@ -38,22 +37,29 @@ main{
     padding-top: 3rem;
     background: #f4f4f4;
     text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
     
 }
-.sectionIntro ul {
+.contentQuestions{
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+.contentQuestions ul {
     list-style: none;
     padding:10px;
     color:#111;
 
 }
-.sectionIntro .ans{
+.contentQuestions .ans{
     max-width: 500px;
     background: #333;
     color: white;
     margin: 0 auto;
     border-radius: 1rem;
+    /* margin-top:5rem;  */
+    margin-top: -80px;
+    position: relative;
+    bottom: -90px;
 }
 .sectionIntro li {
     padding:1rem;   
@@ -66,24 +72,47 @@ main{
     font-size: 2rem;
     /* text-align: center; */
     padding: 1rem;
+    margin-top: 1rem;
 }
 
 .sectionHome{
-    margin: 2rem 0;
-    text-align: center;
-
+    padding-top: 110px;
+    background: rgba(81,116,209, 0.5);
+    /* color: white; */
+    font-weight: 600;
 }
 .sectionHome h2{
     font-size: 2rem;
     padding: 1rem;
+    text-align: center;
 }
 .sectionHome h3{
+    text-align: center;
     /* font-size: 2rem; */
     padding: 1rem;
 }
+.sectionHome .contentHome {
+    /* padding: inherit;
+    padding: initial; */
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+.sectionHome ol {
+    padding:1rem;   
+    font-size: 1.2rem;
+}
+.sectionHome ol li{
+    margin-left:3rem;   
+
+}
+.sectionHome ul {
+    padding:1rem;   
+    /* font-size: 1.2rem; */
+}
 
 
-/* -------------Order Page---------- */
+/* -------------------Order Page---------- */
 .survey {
     /* height: 800px; */
 
@@ -172,7 +201,7 @@ main{
     border-radius: 2px;
 }
 
-/* --------------------- About Page------------- */
+/* --------------------- About Page----------------- */
 
 .sectionAbout{
     padding: 0 2rem;

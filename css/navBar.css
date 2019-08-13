@@ -81,10 +81,10 @@
     background: #49a4d5
 }
 .headerHome{
-    background: #9cbcb9;
+    background: rgba(81,116,209, 0.5)
 }
 .headerContact{
-    background: #5174d1;
+    background: #9cbcb9;
 }
 .mainFooter{
     padding: 3rem;
