@@ -6,15 +6,15 @@ html{
     font-family: 'Roboto', sans-serif;
 }
 main{
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
     /* max-width: 1200px; */
 }
 
-/* -----------Home Page ------------ */
+/* -------------------Home Page ------------ */
 
 .sectionShow{
-    margin-left: -2rem;;
-    margin-right: -2rem;
+    /* margin-left: -2rem;;
+    margin-right: -2rem; */
     padding: 2rem; 
     background: #333;
     color: whitesmoke;
@@ -34,6 +34,40 @@ main{
 .btnAbout{
     background: #0bb634;
 }
+.sectionIntro {
+    padding-top: 3rem;
+    background: #f4f4f4;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+.sectionIntro ul {
+    list-style: none;
+    padding:10px;
+    color:#111;
+
+}
+.sectionIntro .ans{
+    max-width: 500px;
+    background: #333;
+    color: white;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+.sectionIntro li {
+    padding:1rem;   
+    font-size: 1.2rem;
+}
+.sectionIntro li:nth-child(even){
+    color:#555;
+}
+.ansText{
+    font-size: 2rem;
+    /* text-align: center; */
+    padding: 1rem;
+}
+
 .sectionHome{
     margin: 2rem 0;
     text-align: center;
@@ -140,6 +174,9 @@ main{
 
 /* --------------------- About Page------------- */
 
+.sectionAbout{
+    padding: 0 2rem;
+}
 .flexContainer{
     display: flex;
     border: #333 solid 1px;
