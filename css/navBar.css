@@ -64,12 +64,10 @@
 
 /* General CSS */
 
-main{
-    padding: 2rem;
-}
 .header {
     height: 60vh;
     text-align: center;
+    color: white;
     
 }
 .header h1{
@@ -106,12 +104,11 @@ main{
     font-size: 1.2rem;
     font-weight: 800;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
 }
 .button:hover {
     background:#3554aa;
 }
-
-
 
 .mainFooter a {
     color: #49a4d5;

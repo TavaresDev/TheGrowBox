@@ -5,6 +5,35 @@
 html{
     font-family: 'Roboto', sans-serif;
 }
+main{
+    padding: 0 2rem;
+    max-width: 1200px;
+}
+
+/* -----------Home Page ------------ */
+
+.sectionShow{
+    margin-left: -2rem;;
+    margin-right: -2rem;
+    padding: 2rem; 
+    background: #333;
+    color: whitesmoke;
+    text-align: center;
+}
+.showItem{
+    padding: 2rem 0;
+}
+/* .showItem  */
+.green{
+    color: #0bb634;
+}
+.showItem h3 {
+    padding-top: 1rem;
+
+}
+.btnAbout{
+    background: #0bb634;
+}
 
 /* -------------Order Page---------- */
 .survey {
@@ -139,4 +168,12 @@ html{
     width: 100%;
 	height: auto;
 	max-width: 300px;
+}
+
+/* --------- 4 Page -------- */
+
+.btnSign{
+    border:2px solid white;
+    border-radius: 10px;
+
 }
