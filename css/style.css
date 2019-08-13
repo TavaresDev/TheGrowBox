@@ -80,6 +80,7 @@ main{
     background: rgba(81,116,209, 0.5);
     /* color: white; */
     font-weight: 600;
+    padding-bottom: 3rem; 
 }
 .sectionHome h2{
     font-size: 2rem;
@@ -103,12 +104,14 @@ main{
     font-size: 1.2rem;
 }
 .sectionHome ol li{
-    margin-left:3rem;   
-
+    margin-left:3rem;  
+    
 }
 .sectionHome ul {
     padding:1rem;   
     /* font-size: 1.2rem; */
+    color:#555; 
+    list-style: none;
 }
 
 
@@ -206,9 +209,19 @@ main{
 .sectionAbout{
     padding: 0 2rem;
 }
+.sectionAbout h2{
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+.sectionAbout h3{
+    text-align: center;
+    /* font-size: 2rem; */
+    padding: 1rem;
+}
 .flexContainer{
     display: flex;
-    border: #333 solid 1px;
+    /* border: #333 solid 1px; */
     flex-direction: column;
     text-align: center;
     justify-content: space-around;
@@ -226,6 +239,7 @@ main{
     
 }
 .col50{
+    align-items: center;
     flex-basis: 50%;
     /* flex: 0 1 30%; */
 }
@@ -236,10 +250,10 @@ main{
     flex-basis: 70%;
 }
 .col:nth-child(1) {
-    background-color: lightblue;
+    /* background-color: lightblue; */
   }
 .col:nth-child(2) {
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
   }
 .col:nth-child(3) {
     background-color: lightcoral;
