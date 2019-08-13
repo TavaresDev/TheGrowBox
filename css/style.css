@@ -7,7 +7,7 @@ html{
 }
 main{
     padding: 0 2rem;
-    max-width: 1200px;
+    /* max-width: 1200px; */
 }
 
 /* -----------Home Page ------------ */
@@ -34,6 +34,20 @@ main{
 .btnAbout{
     background: #0bb634;
 }
+.sectionHome{
+    margin: 2rem 0;
+    text-align: center;
+
+}
+.sectionHome h2{
+    font-size: 2rem;
+    padding: 1rem;
+}
+.sectionHome h3{
+    /* font-size: 2rem; */
+    padding: 1rem;
+}
+
 
 /* -------------Order Page---------- */
 .survey {
