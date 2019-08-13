@@ -5,4 +5,6 @@ function toggle() {
     } else {
         navBar.className = "topNav"
     }
+
+    
 }
