@@ -114,6 +114,72 @@ main{
     list-style: none;
 }
 
+/* --------------------- About Page----------------- */
+
+.sectionAbout{
+    padding: 0 2rem;
+}
+.sectionAbout h2{
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+}
+.sectionAbout h3{
+    text-align: center;
+    /* font-size: 2rem; */
+    padding: 1rem;
+}
+.flexContainer{
+    display: flex;
+    /* border: #333 solid 1px; */
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+@media(min-width:40rem){
+    .flexContainer{
+        flex-direction: row;
+    }
+}
+.col{
+    /* margin: 1rem; */
+    padding: 1rem;
+    /* margin: 0 auto; */
+    
+}
+.col50{
+    align-items: center;
+    flex-basis: 50%;
+    /* flex: 0 1 30%; */
+}
+.col30{
+    flex-basis: 30%;
+}
+.col70{
+    flex-basis: 70%;
+}
+.col:nth-child(1) {
+    /* background-color: lightblue; */
+  }
+.col:nth-child(2) {
+    /* background-color: lightgreen; */
+  }
+.col:nth-child(3) {
+    background-color: lightcoral;
+  }
+.imgProject {
+    width: 100%;
+	height: auto;
+	max-width: 300px;
+}
+.technical ul {
+    list-style: none;
+    font-size: 1.2rem;
+}
+.technical li {
+    padding: 0.2rem;
+}
 
 /* -------------------Order Page---------- */
 .survey {
@@ -204,65 +270,7 @@ main{
     border-radius: 2px;
 }
 
-/* --------------------- About Page----------------- */
 
-.sectionAbout{
-    padding: 0 2rem;
-}
-.sectionAbout h2{
-    font-size: 2rem;
-    padding: 1rem;
-    text-align: center;
-}
-.sectionAbout h3{
-    text-align: center;
-    /* font-size: 2rem; */
-    padding: 1rem;
-}
-.flexContainer{
-    display: flex;
-    /* border: #333 solid 1px; */
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-around;
-    
-}
-@media(min-width:40rem){
-    .flexContainer{
-        flex-direction: row;
-    }
-}
-.col{
-    /* margin: 1rem; */
-    padding: 1rem;
-    /* margin: 0 auto; */
-    
-}
-.col50{
-    align-items: center;
-    flex-basis: 50%;
-    /* flex: 0 1 30%; */
-}
-.col30{
-    flex-basis: 30%;
-}
-.col70{
-    flex-basis: 70%;
-}
-.col:nth-child(1) {
-    /* background-color: lightblue; */
-  }
-.col:nth-child(2) {
-    /* background-color: lightgreen; */
-  }
-.col:nth-child(3) {
-    background-color: lightcoral;
-  }
-.imgProject {
-    width: 100%;
-	height: auto;
-	max-width: 300px;
-}
 
 /* --------- 4 Page -------- */
 
