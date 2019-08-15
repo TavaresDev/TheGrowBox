@@ -17,16 +17,16 @@
         <nav>
             <ul id="topNavId" class="topNav">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="order.html">Order</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="system.html">System</a></li>
+                <li><a href="system.html" class="active">System</a></li>
                 <li><a href="javascript:void(0)" class="icon" onclick="toggle()"> <i class="fa fa-bars"></i></a></li>
             </ul>
         </nav>
         <div>
             <h1>Grow Box</h1>
-            <h2>The Project</h2>
+            <h2>A preview of the control System</h2>
             <!-- <a class="button btnABout">Lorem</a> -->
         </div>
 
@@ -39,7 +39,7 @@
                 <div class="flexContainer">
                     <div class="col col30">
                         <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, vero.</p> -->
-                        <img class="imgProject" src="../img/grow2.jpg" alt="grow Project Arduino" sizes="" srcset="">
+                        <img class="imgProject" src="../img/growPresentation.jpg" alt="grow Project Arduino" sizes="" srcset="">
                     </div>
                     <div class="col col70">
                         <p> The grow Box project is a way of helping people to grow heath food indoors. even if someone dont
@@ -64,28 +64,13 @@
                 <h3>Technical stuff</h3>
                 <div class="flexContainer">
                     <div class="col col50">
-                        <p>
-                            Build using an Arduino Leonardo and ESP 8266 wifi module to send the data to Things to speak.
-                            The data is colected from arduino compatible sensors
-                        </p>
+                            <h4>Graph showing the quantity of light the plant is getting</h4>
+                        <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/845795/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10&title=LDR&type=line&yaxismax=300&yaxismin=0"></iframe>
                     </div>
                     <div class="col col50">
                     <div>
-                         <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/845795/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10&title=LDR&type=line&yaxismax=300&yaxismin=0"></iframe>
-                         <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/845795/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10&title=Moisture+of+The+soil&type=line&yaxis=Humidity"></iframe>
-
-                        
-                        <h3>Components</h3>
-                        <ul>
-                            <li>Arduino Leonardo</li>
-                            <li>Esp 8266</li>
-                            <li>Module-01 Adapter</li>
-                            <li>Moisture sensor</li>
-                            <li>Humidity and temperature sensor</li>
-                            <li>Ldr sensor</li>
-                            <li>12V pump</li>
-                            <li>LCD display</li>
-                        </ul>
+                            <h4>Graph showing the percentage of water in the soil</h4>
+                        <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/845795/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=100&title=Moisture+of+The+soil&type=line&yaxis=Humidity"></iframe>
                     </div>
                         
                     </div>
