@@ -117,11 +117,11 @@ main{
 /* --------------------- About Page----------------- */
 
 .sectionAbout{
-    padding: 0 2rem;
+    padding: 2rem 2rem;
 }
 .sectionAbout h2{
     font-size: 2rem;
-    padding: 1rem;
+    padding:2rem;
     text-align: center;
 }
 .sectionAbout h3{
@@ -168,6 +168,11 @@ main{
 .col:nth-child(3) {
     background-color: lightcoral;
   }
+.textBox {
+    font-size: 1.2rem;
+    text-align:justify; 
+
+}
 .imgProject {
     width: 100%;
 	height: auto;
@@ -272,10 +277,29 @@ main{
 
 
 
-/* --------- 4 Page -------- */
+/* --------- Contact Page -------- */
+.sectionContact{
+    text-align: center;
+    padding: 2rem;
+}
+.sectionContact{
+    text-align: center;
+}
+.formSignUp{
+    background: #0bb634;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 100%;
+    color:white;
+    text-align: left;
+}
+.formSignUp legend{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
 
-.btnSign{
+/* .btnSign{
     border:2px solid white;
     border-radius: 10px;
-
-}
+} */
