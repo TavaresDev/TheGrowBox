@@ -192,7 +192,6 @@ main{
     
 }
 .orderContent {
-    border: 1px solid #0bb634;
     padding: 5rem;
 }
 .orderHeader {
@@ -202,6 +201,9 @@ main{
     justify-content: space-between;
     align-items:center;
 }
+.orderHeader .orderButton{
+    margin: 0;
+}
 .block{
     display: block;
     color:white;
@@ -210,6 +212,7 @@ main{
 }
 .orderContent img {
     width: 100%;
+    margin-bottom: 2rem;
 }
 .orderText {
     padding: 1rem 0;
@@ -236,18 +239,13 @@ main{
 /* =----------- */
 .deliveryForm {
     /* height: 800px; */
-
     width: 100%;
-    /* min-height: 70vh; */
     max-width: 500px;
-
-    background-color:#0bb634;
-  
+    /* background-color:#0bb634; */
     border-radius: 5px;
     margin: 50px auto;
     padding: 40px;
-    color: white;
-    /* text-align: center; */
+
 }
 .form-wrap {
     max-width: 800px;
@@ -258,24 +256,16 @@ main{
     list-style: none;
 
 }
-.form-order li select {
-    padding: 0.5em;
-    border-radius: 5px;
-    border: none;
-}
-.survey legend{
-    text-align: center;
-    font-size: 1.1rem;
-    
-}
-.survey >p {
+.deliveryForm legend {
     text-align: center;
     margin-bottom: 30px;
+    font-size: 1.5rem;
 }
 
-.form-wrap li{
+.form-wrap li:not(:last-child){
     list-style: none;
-    padding: 0;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(50,50,50, 0.5);
 }
 .form-wrap li{
     display: flex;
@@ -290,9 +280,6 @@ main{
     max-width: 300px;
     align-self: flex-start;
 }
-/* .form-wrap p {
-    margin: 20px 0px 15px 0px;
-} */
 
 /* label + * =  select all * elements that are placed immediately after label element */
 .form-wrap > li > label + *,
@@ -306,21 +293,17 @@ main{
     border-radius: 5px;
     border: none;
 }
-.flex-radio li input,
-.flex-inner li input{
-    margin-right: 20px;
-}
+
 .form-wrap li button {
     margin: 25px auto 0px;
     padding: 8px 16px;
     border: none;
     background: #333;
     color: #f2f2f2;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     letter-spacing: .09em;
     border-radius: 2px;
 }
-
 
 
 /* --------- Contact Page -------- */
