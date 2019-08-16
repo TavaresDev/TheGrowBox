@@ -50,7 +50,7 @@
         flex-direction: column;
         background: rgba(82, 85, 85, 0.2);
     }
-    /* fix icon to the rigth when nav is open */
+    /* fix icon to the right when nav is open */
     .responsive .icon {
         position: absolute;
         top: 0;
@@ -62,7 +62,7 @@
     }
 }
 
-/* General CSS */
+/* General CSS for header and footer */
 
 .header {
     height: 60vh;
@@ -90,10 +90,16 @@
 .mainFooter{
     padding: 3rem;
     color: antiquewhite;
-    
     text-align: center;
     background: #1b2126;
 }
+.mainFooter a {
+    color: #49a4d5;
+    /* font-size: 1.2rem; */
+    text-emphasis: none;
+    text-decoration: none;
+}
+/* generic button to maintain the same style */
 .button{
     display: inline-block;
     padding: .5rem 2rem;
@@ -111,9 +117,4 @@
     background:#3554aa;
 }
 
-.mainFooter a {
-    color: #49a4d5;
-    /* font-size: 1.2rem; */
-    text-emphasis: none;
-    text-decoration: none;
-}
+
