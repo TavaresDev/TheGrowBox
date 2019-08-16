@@ -13,7 +13,6 @@
 
 <body>
     <header class="header headerOrder">
-
         <nav>
             <ul id="topNavId" class="topNav">
                 <li><a href="../index.html">Home</a></li>
@@ -33,49 +32,83 @@
     </header>
     <main>
 
-        
-        <div class="">
-            
-            
-            <h1>Order</h1>
-            
-            <!-- product info selection -->
-            <!-- displau price, chose quantity, delivery shippimnent?, -->
-            <!-- open personal an dbliling info -->
-            <!-- personal info -->
-            
-            <section class="survey">
-                <div>
-                    Price = $500
+        <section class="sectionOrder">
+            <div class="orderContent">
+                <div class="orderHeader">
+                    <h3 class="block ">The Grow box</h3>
+                    <!-- <p class="block">Price</p> -->
+                    <button class="block buttonOrder">Buy</button>
                 </div>
-                <form id="order" method="GET" action="">
-                    <div class="form-order">
-                    <label for="quantity">Quantity:</label>
-                    <select name="quantity" id="quantity">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
-                        <option value="5">5</option>
-                        <option value="6">6</option>
-                        <option value="7">7</option>
-                        <option value="8">8</option>
-                        <option value="9">9</option>
-                    </select>
-                    <input type="button" value="Order">
+                <figure>
+                    <img src="../img/growFull.jpg" alt="The grow Project">
+                </figure>
+                <div class="flexContainer ">
+                    <div class="col50 orderText">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, reiciendis?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, reiciendis?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, reiciendis?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, reiciendis?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, reiciendis?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, reiciendis?</p>
+
                     </div>
-                </form>
-            </section>
-            <section class="survey">
-                <!-- <h2>Make your order</h2> -->
-                <form id="order" method="GET" action="">
-                    <legend>Delivery Information</legend>
-                    <ul class="form-wrap">
-                        <li><label for="fname">Name:</label>
-                            <input type="text" name="fname" id="fname" required placeholder="First Name">
-                        </li>
-                        <li><label for="lname">Last Name:</label>
-                            <input type="text" name="lname" id="lname" required placeholder="Last Name">
+                    <div class="col30 buyForm">                           
+                        <form method="GET" action="">
+                            <div class="formOrder">
+                                <h4>Choose a Model</h4>
+                                <div>
+                                    <input type="checkbox" name="tipe1" id="tipe1">
+                                    <label for="tipe1">Model 1 </label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="tipe" id="">
+                                    <label for="tipe">Model 2</label>
+                                </div>
+                                <div class="quantityDiv">
+                                    <label for="quantity">Quantity:</label>
+                                    <select name="quantity" id="quantity">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                    </select>
+                                    <p>x  $399.00</p>
+                                </div>
+                                <div>
+                                    <input class="button orderButton" type="button" value="Order">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+        <h1>Order</h1>
+        
+        <!-- product info selection -->
+        <!-- displau price, chose quantity, delivery shippimnent?, -->
+        <!-- open personal an dbliling info -->
+        <!-- personal info -->
+        
+
+        <section class="deliveryForm">
+            <!-- <h2>Make your order</h2> -->
+            <form id="order" method="GET" action="">
+                <legend>Delivery Information</legend>
+                <ul class="form-wrap">
+                    <li>
+                        <label for="fname">Name:</label>
+                        <input type="text" name="fname" id="fname" required placeholder="First Name">
+                    </li>
+                    <li>
+                        <label for="lname">Last Name:</label>
+                        <input type="text" name="lname" id="lname" required placeholder="Last Name">
                     </li>
                     <li>
                         <label for="phone">Phone Number:</label>
@@ -102,13 +135,9 @@
                         <input type="text" name="postalcode" id="postalcode" placeholder="Zip Code">
                     </li>
                 </ul>
-                
             </form>
         </section>
-        <!-- biling info -->
-        
-        
-    
+    <!-- biling info -->
     </main>
     <footer class="mainFooter">
         <p>Developed by <a href="https://www.linkedin.com/in/andre--tavares" target="_blank">Andre Tavares</a> </p>

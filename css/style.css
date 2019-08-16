@@ -137,7 +137,7 @@ main{
     justify-content: space-around;
     
 }
-@media(min-width:40rem){
+@media(min-width:900px){
     .flexContainer{
         flex-direction: row;
     }
@@ -187,14 +187,61 @@ main{
 }
 
 /* -------------------Order Page---------- */
-.survey {
+.orderContent {
+    background: #eceef1;
+    
+}
+.orderContent {
+    border: 1px solid #0bb634;
+    padding: 5rem;
+}
+.orderHeader {
+    border: 1px solid black;
+    background: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.block{
+    display: block;
+    color:white;
+    padding: 1rem;
+    text-align: center;
+}
+.orderContent img {
+    width: 100%;
+}
+.orderText {
+    padding: 1rem 0;
+}
+.formOrder .orderButton {
+ width: 100%;   
+
+}
+.formOrder > div{
+    /* width: 80%; */
+    /* flex-grow: 1; */
+    padding: 1rem;
+    text-align: left;
+}
+.formOrder > div input{
+    margin-right:1rem; 
+}
+
+.quantityDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* =----------- */
+.deliveryForm {
     /* height: 800px; */
 
     width: 100%;
     /* min-height: 70vh; */
     max-width: 500px;
 
-    background-color:#0bb634;;
+    background-color:#0bb634;
   
     border-radius: 5px;
     margin: 50px auto;
@@ -226,8 +273,7 @@ main{
     margin-bottom: 30px;
 }
 
-.form-wrap li,
-.flex-inner{
+.form-wrap li{
     list-style: none;
     padding: 0;
 }
@@ -281,9 +327,6 @@ main{
 .sectionContact{
     text-align: center;
     padding: 2rem;
-}
-.sectionContact{
-    text-align: center;
 }
 .formSignUp{
     background: #0bb634;
