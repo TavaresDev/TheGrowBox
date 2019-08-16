@@ -312,12 +312,19 @@ main{
     padding: 2rem;
 }
 .formSignUp{
-    background: #0bb634;
+    background: #0bb634#a8b9e8;
+    background:rgba(81,116,209, 0.5)
     padding: 1rem;
     border-radius: 1rem;
     width: 100%;
-    color:white;
+    /* color:white; */
     text-align: left;
+    border-bottom: rgba(50,50,50, 0.5);
+}
+#signUp li{
+    list-style: none;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(50,50,50, 0.5);
 }
 .formSignUp legend{
     text-align: center;
