@@ -192,8 +192,9 @@ main{
     justify-content: space-between;
     align-items:center;
 }
-.orderHeader .orderButton{
+.orderButton{
     margin: 1rem;
+    text-align: center;
 }
 .block{
     display: block;
@@ -227,10 +228,8 @@ main{
 
 /* ----------- */
 .deliveryForm {
-    /* height: 800px; */
     width: 100%;
     max-width: 500px;
-    /* background-color:#0bb634; */
     border-radius: 5px;
     margin: 50px auto;
     padding: 40px;
@@ -238,10 +237,6 @@ main{
 .form-wrap {
     max-width: 800px;
     margin: 0 auto;
-}
-.form-order{
-    margin: 0 auto;
-    list-style: none;
 }
 .deliveryForm legend {
     text-align: center;
@@ -293,7 +288,8 @@ main{
     padding: 2rem;
 }
 .formSignUp{
-    background:rgba(81,116,209, 0.5);
+    /* background:rgba(81,116,209, 0.5); */
+    background: #49a4d5;
     padding: 1rem;
     border-radius: 1rem;
     width: 100%;
@@ -301,18 +297,12 @@ main{
     text-align: left;
     border-bottom: rgba(50,50,50, 0.5);
 }
-#signUp li{
-    list-style: none;
-    padding: 1rem;
-    border-bottom: 1px solid rgba(50,50,50, 0.5);
-}
 .formSignUp legend{
     text-align: center;
     font-size: 1.5rem;
     padding: 1rem;
 }
+.signUpBtn a{
+    margin: 2rem auto 0 auto;
 
-/* .btnSign{
-    border:2px solid white;
-    border-radius: 10px;
-} */
+}
