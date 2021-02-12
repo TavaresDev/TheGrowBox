@@ -20,7 +20,7 @@
                 <li><a href="about.html" class="active">About</a></li>
                 <li><a href="order.html">Order</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="system.html">System</a></li>
+                <!-- <li><a href="system.html">System</a></li> -->
                 <li><a href="javascript:void(0)" class="icon" onclick="toggle()"> <i class="fa fa-bars"></i></a></li>
             </ul>
         </nav>
@@ -74,8 +74,9 @@
                             The data is collected from Arduino compatible sensors
                         </p>
                         <br>
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, ut praesentium. Vero culpa ipsa quam esse, voluptate fuga corporis modi nostrum molestiae, eum veniam quo, dolor facilis accusamus saepe et!
+                        <p> 
+                            Those graph below are being transmitted live from a plant using the first prototype of the grow box project.
+                            The System use the thingspeak.com API to visualize and store all the data generate by the sensors.
                         </p>
                         <br>
                         <p>
@@ -103,6 +104,22 @@
                     </div>
                 </div>
             </div> <!-- row-->
+            <div>
+                <h2>Live Data</h2>
+                <div class="flexContainer">
+                    <div class="col col50">
+                            <h4>Graph showing the quantity of light the plant is getting</h4>
+                        <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/845795/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10&title=LDR&type=line&yaxismax=300&yaxismin=0"></iframe>
+                    </div>
+                    <div class="col col50">
+                    <div>
+                            <h4>Graph showing the percentage of water in the soil</h4>
+                        <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/845795/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=100&title=Moisture+of+The+soil&type=line&yaxis=Humidity"></iframe>
+                    </div>
+                        
+                    </div>
+                </div>
+            </div>
 
 
 
